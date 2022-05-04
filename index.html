@@ -2,28 +2,63 @@
 <html>
     <head>
         <title>Aula-01-HTML</title>
+        <link rel="icon" type="image/x-icon" href="img/icone-gestao-ti.png">
+        <link rel="stylesheet" href="styles.css">
+
     </head>
 
-    <body style="background-color:rgb(196, 224, 199);">
-
-        <h1 style="background-color:rgb(187, 89, 32); color:blue; text-align:center;">Topico de tamanho 1</h1>
+    <body>
+        <!--primeira parte do meu codigo HTML -->
+        <h1>Topico de tamanho 1</h1>
         <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>
             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>
             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>
             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>
             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br> </p> 
-            <p style="text-align:right;" ><img src="img/html5.png" width="500" height="200" alt="img HTML"></p>
+            <p><img src="img/html5.png" width="500" height="200" alt="img HTML"></p>
         
-        <h1 style="background-color:rgb(187, 89, 32); color:blue; text-align:right;">Topico de tamanho 2</h1>
+        <h1>Topico de tamanho 2</h1>
         <ul>
             <li><a href="https://www.w3schools.com">Click aqui para conhecer a W3CSchools</a></li> 
             <li><a href="https://www.w3schools.com/css/default.asp">Click aqui para conhecer o CSS</a></li>
             <li><a href="https://www.w3schools.com/js/default.asp">Click aqui para conhecer o Javascrip</a></li>
         </ul>
 
-        <h1 style="background-color:rgb(187, 89, 32); color:blue; text-align:left;">Topico de tamanho 3</h1>
-        <p style="text-align:right;" ><img src="img/html5.png" width="1000" height="200" alt="img HTML"></p>
+        <h1>Topico de tamanho 3</h1>
+        <p><img src="img/html5.png" width="1000" height="200" alt="img HTML"></p>
 
+        <h1>Usando tabelas</h1>
+        <table>
+            <tr>
+              <th>Nome</th>
+              <th>End.</th>
+              <th>Pais</th>
+              <th>Telefone</th>
+              <th>Email</th>
+            </tr>
+            <tr>
+              <td>Fulanos de tal</td>
+              <td>Macapa</td>
+              <td>Brasil</td>
+              <td>96 99999-9999</td>
+              <td>Fulano@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Ciclano</td>
+              <td>Santana</td>
+              <td>Brasil</td>
+              <td>91 98999-9999</td>
+              <td>Ciclano@gmail.com</td>
+            </tr>
+          </table>
+
+        <h1> Usando imagens </h1>
+
+        <picture>
+            <source media="(min-width: 650px)" srcset="img/fma.jpg">
+            <source media="(min-width: 465px)" srcset="img/yuyu.jpg">
+            <img src="img/dorohedoro.jpg">
+          </picture>
     </body>
   
 </html>
